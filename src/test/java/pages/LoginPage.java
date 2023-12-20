@@ -3,7 +3,7 @@ package pages;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
-public class LoginPage {
+public class LoginPage extends BasePage {
     final String EMAIL_CSS = "[name=email]";
     final String PASS_CSS = "[name=password]";
     final String SUBMIT_BTN_CSS = "[type=submit]";
